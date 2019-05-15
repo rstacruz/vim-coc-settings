@@ -84,7 +84,8 @@ Prettier formatting happens on every save, automatically! You can also trigger i
 
 <tr>
 <td>
-<kbd>space</kbd> <kbd>c</kbd> <kbd>c</kbd> &mdash; <strong>Show available commands</strong>
+<kbd>space</kbd> <kbd>c</kbd> <kbd>c</kbd> &mdash; <strong>Show available commands</strong><br>
+Fix tslint problems automatically, run Prettier manually, auto-fix eslint, and more.
 </td>
 <td>
 -
