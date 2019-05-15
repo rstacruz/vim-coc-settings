@@ -1,5 +1,5 @@
 " the prefix to use for leader commands
-let g:mapleader="<Space>"
+let g:mapleader="<space>"
 
 " Use vim-plug to manage your plugins:
 " https://github.com/junegunn/vim-plug
