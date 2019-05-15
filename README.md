@@ -2,9 +2,15 @@
 
 :wave: Hey there, here's my setup on how I use coc.nvim to make my Vim work like an IDE.
 
-## Requisites
+I've been VSCode, Atom, Sublime, and other modern editors. They are fantastic! I love how I get automatic type hints, amazing auto-complete, inline documentation, and many things that Vim users may consider to be frivolous luxuries.
 
-You need `neovim` (or `vim` 8.1+), `nodejs` and `yarn`.
+They're no Vim, though. VSCode's Vim emulation can be a bit slow (try doing `9j` on vscode-vim, and try it on Vim itself). They also take a lot of memory, which can be too much for 4GB/8GB laptops.
+
+Since [coc.nvim](https://github.com/neoclide/coc.nvim/) came around, there's no need to compromise anymore. You can get IDE-like features in Vim, and here's how I did it!
+
+## Install Vim (and friends)
+
+You need `neovim` (or `vim` 8.1+), `nodejs` and `yarn`. Coc's internals runs on Node.js.
 
 | Platform             | Command                               |
 | -------------------- | ------------------------------------- |
@@ -13,9 +19,9 @@ You need `neovim` (or `vim` 8.1+), `nodejs` and `yarn`.
 
 I suggest using [vim-plug](https://github.com/junegunn/vim-plug) to manage your dependencies.
 
-## Files here
+## Copy from the files here
 
-The files in this repo are things you can merge into your Neovim configuration:
+The files in this repo are things you can merge into your Vim/Neovim configuration.
 
 | File                                                          | Desrcpition                         |
 | ------------------------------------------------------------- | ----------------------------------- |
@@ -23,7 +29,7 @@ The files in this repo are things you can merge into your Neovim configuration:
 | ~/.config/nvim/[coc-settings.json](./coc-settings.json)       | Settings for coc-nvim               |
 | ~/.config/nvim/[after/plugin/coc.vim](./after/plugin/coc.vim) | Key bindings and other Coc settings |
 
-If you're using Vim instead of Neovim, take what's in `init.vim` and place it in `~/.vimrc`.
+If you're using Vim instead of Neovim, take what's in `init.vim` and place it in `~/.vimrc`, and the config folder is `~/.vim` instead of `~/.config/nvim`.
 
 ## Also see
 
