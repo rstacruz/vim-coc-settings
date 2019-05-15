@@ -44,21 +44,11 @@ See [after/plugin/coc.vim](.after/plugin/coc.vim) for a full list of key binding
 
 <tr>
 <td>
-<kbd>gh</kbd> &mdash; <strong>Show hint</strong><br>
-Shows a hint for whatever's on the cursor. This means type definitions, JSDoc comments, and documentation (when available).
-</td>
-<td>
-<img width=300 src='./screenshots/coc_show_docs.gif'>
-</td>
-</tr>
-
-<tr>
-<td>
 <kbd>g</kbd><kbd>h</kbd> &mdash; <strong>Show hint/documentation</strong><br>
 Shows a hint for whatever's on the cursor. This means type definitions, JSDoc comments, and documentation (when available). Similar to VSCode's mouse over functionality.
 </td>
 <td>
-<img width=300 src='./screenshots/coc_show_docs.gif'>
+<img src='./screenshots/coc_show_docs.gif'>
 </td>
 </tr>
 
@@ -68,7 +58,7 @@ Shows a hint for whatever's on the cursor. This means type definitions, JSDoc co
 Rename whatever is on the cursor. Similar to VSCode's Rename Symbol command (F2).
 </td>
 <td>
-<img width=300 src='./screenshots/coc_rename.gif'>
+<img src='./screenshots/coc_rename.gif'>
 </td>
 </tr>
 
@@ -78,7 +68,7 @@ Rename whatever is on the cursor. Similar to VSCode's Rename Symbol command (F2)
 Code completion just happens. <code>ctrl-n</code> and <code>ctrl-p</code> are default Vim key bindings for browsing through code completions.
 </td>
 <td>
-<img width=300 src='./screenshots/coc_completion.gif'>
+<img src='./screenshots/coc_completion.gif'>
 </td>
 </tr>
 
@@ -88,7 +78,36 @@ Code completion just happens. <code>ctrl-n</code> and <code>ctrl-p</code> are de
 Prettier formatting happens on every save, automatically! You can also trigger it manually via invoking Coc commands via <code>space-c-c</code>.
 </td>
 <td>
-<img width=300 src='./screenshots/coc_prettier.gif'>
+<img src='./screenshots/coc_prettier.gif'>
+</td>
+</tr>
+
+<tr>
+<td>
+<kbd>space</kbd> <kbd>c</kbd> <kbd>c</kbd> &mdash; <strong>Show available commands</strong>
+</td>
+<td>
+-
+</td>
+</tr>
+
+<tr>
+<td>
+<kbd>space</kbd> <kbd>c</kbd> <kbd>x</kbd> &mdash; <strong>Enable/disable e<u>x</u>tensions</strong><br>
+If you don't need tsserver in your current project, you can temporarily disable them.
+</td>
+<td>
+-
+</td>
+</tr>
+
+<tr>
+<td>
+<kbd>space</kbd> <kbd>c</kbd> <kbd>l</kbd> &mdash; <strong><u>L</u>ist errors</strong><br>
+When you find errors, use this to shown them all
+</td>
+<td>
+-
 </td>
 </tr>
 

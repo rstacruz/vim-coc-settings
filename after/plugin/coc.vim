@@ -27,16 +27,11 @@ endfunction
 " Highlight symbol under cursor on CursorHold
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
-" spc-c-x - manage extensions
-nnoremap <silent> <leader>cx  :<C-u>CocList extensions<cr>
-nnoremap <silent> <leader>cc  :<C-u>CocList commands<cr>
 nnoremap <silent> <leader>co  :<C-u>CocList outline<cr>
-nnoremap <silent> <leader>cl  :<C-u>CocList locationlist<cr>
 nnoremap <silent> <leader>cs  :<C-u>CocList -I symbols<cr>
-nnoremap <silent> <leader>cc  :<C-u>CocList commands<cr>
-nnoremap <silent> <leader>co  :<C-u>CocList outline<cr>
+
+" List errors
 nnoremap <silent> <leader>cl  :<C-u>CocList locationlist<cr>
-nnoremap <silent> <leader>cs  :<C-u>CocList -I symbols<cr>
 
 " list commands available in tsserver (and others)
 nnoremap <silent> <leader>cc  :<C-u>CocList commands<cr>
