@@ -2,20 +2,28 @@
 
 :wave: Hey there, here's my setup on how I use coc.nvim to make my Vim work like an IDE.
 
-You need `neovim`, `nodejs` and `yarn`.
+## Requisites
+
+You need `neovim` (or `vim` 8.1+), `nodejs` and `yarn`.
 
 | Platform             | Command                               |
 | -------------------- | ------------------------------------- |
 | macOS (via Homebrew) | `brew install nodejs neovim yarn`     |
 | Arch Linux           | `sudo pacman -Syu nodejs neovim yarn` |
 
-Contains these files:
+I suggest using [vim-plug](https://github.com/junegunn/vim-plug) to manage your dependencies.
 
-| File                                                    | Desrcpition             |
-| ------------------------------------------------------- | ----------------------- |
-| ~/.config/nvim/[init.vim](./init.vim)                   | List of plugins to load |
-| ~/.config/nvim/[coc-settings.json](./coc-settings.json) | Settings for coc-nvim   |
-| ~/.config/nvim/[after/plugin/coc.vim](./after/plugin/coc.vim) | Key bindings and other Coc settings  |
+## Files here
+
+The files in this repo are things you can merge into your Neovim configuration:
+
+| File                                                          | Desrcpition                         |
+| ------------------------------------------------------------- | ----------------------------------- |
+| ~/.config/nvim/[init.vim](./init.vim)                         | List of plugins to load             |
+| ~/.config/nvim/[coc-settings.json](./coc-settings.json)       | Settings for coc-nvim               |
+| ~/.config/nvim/[after/plugin/coc.vim](./after/plugin/coc.vim) | Key bindings and other Coc settings |
+
+If you're using Vim instead of Neovim, take what's in `init.vim` and place it in `~/.vimrc`.
 
 ## Key bindings
 
@@ -84,3 +92,7 @@ Prettier happens on every save - automatically! You can also trigger it manually
 
 </table>
 
+## References
+
+- These were extracted from [rstacruz/vimfiles](https://github.com/rstacruz/vimfiles/).
+- These work great with [rstacruz/vim-for-scratch](https://github.com/rstacruz/vim-from-scratch).
