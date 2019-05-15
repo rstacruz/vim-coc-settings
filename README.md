@@ -44,55 +44,51 @@ See [after/plugin/coc.vim](.after/plugin/coc.vim) for a full list of key binding
 
 <tr>
 <td>
-<kbd>gh</kbd> &mdash; <strong>Show hint</strong>
-</td>
-<td>
+<kbd>gh</kbd> &mdash; <strong>Show hint</strong><br>
 Shows a hint for whatever's on the cursor. This means type definitions, JSDoc comments, and documentation (when available).
-<img src='./screenshots/coc_show_docs.gif'>
+</td>
+<td>
+<img width=300 src='./screenshots/coc_show_docs.gif'>
 </td>
 </tr>
 
 <tr>
 <td>
-<kbd>g</kbd><kbd>h</kbd> &mdash; <strong>Show hint/documentation</strong>
-</td>
-<td>
+<kbd>g</kbd><kbd>h</kbd> &mdash; <strong>Show hint/documentation</strong><br>
 Shows a hint for whatever's on the cursor. This means type definitions, JSDoc comments, and documentation (when available). Similar to VSCode's mouse over functionality.
-<br>
-<img src='./screenshots/coc_show_docs.gif'>
+</td>
+<td>
+<img width=300 src='./screenshots/coc_show_docs.gif'>
 </td>
 </tr>
 
 <tr>
 <td>
-<kbd>space</kbd>-<kbd>c</kbd><kbd>r</kbd> &mdash; <strong>Rename symbol</strong>
-</td>
-<td>
+<kbd>space</kbd> <kbd>c</kbd> <kbd>r</kbd> &mdash; <strong>Rename symbol</strong><br>
 Rename whatever is on the cursor. Similar to VSCode's Rename Symbol command (F2).
-<br>
-<img src='./screenshots/coc_rename.gif'>
+</td>
+<td>
+<img width=300 src='./screenshots/coc_rename.gif'>
 </td>
 </tr>
 
 <tr>
 <td>
-<kbd>ctrl</kbd>-<kbd>n</kbd> &mdash; <strong>Code completion</strong>
+<kbd>ctrl</kbd>-<kbd>n</kbd> &mdash; <strong>Code completion</strong><br>
+Code completion just happens. <code>ctrl-n</code> and <code>ctrl-p</code> are default Vim key bindings for browsing through code completions.
 </td>
 <td>
-Code completion just happens. `ctrl`-`n` and `ctrl`-`p` are default Vim key bindings for browsing through code completions.
-<br>
-<img src='./screenshots/coc_completion.gif'>
+<img width=300 src='./screenshots/coc_completion.gif'>
 </td>
 </tr>
 
 <tr>
 <td>
-<kbd>space</kbd>-<kbd>c</kbd><kbd>c</kbd>-<kbd>prettier</kbd> &mdash; <strong>Prettier</strong>
+<kbd>space</kbd>-<kbd>c</kbd><kbd>c</kbd>-<kbd>prettier</kbd> &mdash; <strong>Prettier</strong><br>
+Prettier formatting happens on every save, automatically! You can also trigger it manually via invoking Coc commands via <code>space-c-c</code>.
 </td>
 <td>
-Prettier happens on every save - automatically! You can also trigger it manually via invoking Coc commands via `space`-`c`-`c`.
-<br>
-<img src='./screenshots/coc_prettier.gif'>
+<img width=300 src='./screenshots/coc_prettier.gif'>
 </td>
 </tr>
 
