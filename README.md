@@ -25,6 +25,12 @@ The files in this repo are things you can merge into your Neovim configuration:
 
 If you're using Vim instead of Neovim, take what's in `init.vim` and place it in `~/.vimrc`.
 
+## Also see
+
+Many of the configuration are lifted from almost-verbatim from Coc documentation. I highly recommend checking those out too.
+
+- https://github.com/neoclide/coc.nvim/#example-vim-configuration
+
 ## Key bindings
 
 See [after/plugin/coc.vim](.after/plugin/coc.vim) for a full list of key bindings. Below are some of the features that I find to be most useful:
