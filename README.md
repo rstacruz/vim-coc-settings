@@ -2,7 +2,7 @@
 
 :wave: Hey there, here's my setup on how I use coc.nvim to make my Vim work like an IDE.
 
-I've been VSCode, Atom, Sublime, and other modern editors. They are fantastic! I love how I get automatic type hints, amazing auto-complete, inline documentation, and many things that Vim users may consider to be frivolous luxuries.
+I've been on VSCode, Atom, Sublime, and other modern editors. They are fantastic! I love how I get automatic type hints, amazing auto-complete, inline documentation, and many things that Vim users may consider to be frivolous luxuries.
 
 They're no Vim, though. VSCode's Vim emulation can be a bit slow (try doing `9j` on vscode-vim, and try it on Vim itself). They also take a lot of memory, which can be too much for 4GB/8GB laptops.
 
